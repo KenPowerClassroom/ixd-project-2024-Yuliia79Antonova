@@ -49,6 +49,9 @@
     padding: 8px;
     text-align: left;
   }
+   .column 0{
+      backgroung-color: transparent;
+   }
    .column1 {
   background-color: lightblue; 
 }
@@ -77,12 +80,31 @@
     <div class="table-container">
       <table>
          <caption>Competitive Audit Table</caption>
+         <tr>
+    <td colspan="3">Learning apps</td> <!-- Spanning across all columns -->
+  </tr>
+  <tr>
+    <th class="column1">Header 1</th>
+    <th class="column2">Header 2</th>
+    <th class="column3">Header 3</th>
+  </tr>
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+    <td>Cell 3</td>
+  </tr>
         <thead>
           <tr>
-            
+    <th class="column0">Questions</th>     
     <th class="column1">SoloLearn</th>
     <th class="column2">Typing.com</th>
     <th class="column3">CodeCombat</th>
+  </tr>
+  <tr>
+    <td>cell0</td>
+    <td>cell 1</td>
+    <td>cell 2</td>
+    <td>cell 3</td>
   </tr>
           </thead>
         <tbody>
