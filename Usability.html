@@ -45,23 +45,129 @@
   .links a:hover {
     background-color: #ccc;
   }
-</style>
+
+ caption {
+          font-size:34px;
+          text-align:left;
+          margin-bottom: 10px; 
+       }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+     
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+              
+           
+     .table-header {
+        font-size: 24px;
+        color: blue;
+        text-align: center;
+        height: 70px;
+    }
+       .high-score {
+          background-color:pink;
+          vertical-align: top; 
+          text-align: left;
+       }
+       .medium-score {
+          background-color:yellow;
+          vertical-align: top;
+          text-align: left;
+       }
+.low-score {
+   background-color:lightblue;
+   vertical-align: top; 
+   text-align: left;
+}
+      .name {
+         text-align: center;
+      }
+       
+       </style>
+</head>
 <body>
 
 <div class="container">
     <div class="left-sidebar">
-      <ul class="links">
-        <li><a href="index.html">Home</a></li>
-<li><a href="Competitive.html">Competitive Audit</a></li>
-        <li><a href="Wireframe.html">Wireframes</a></li>
-        <li><a href="Prototype.html">Prototype</a></li>
-        <li><a href="Usability.html">Usability Test</a></li>
-      </ul>
+        <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Competitive.html">Competitive Audit</a></li>
+            <li><a href="Wireframe.html">Wireframes</a></li>
+            <li><a href="Prototype.html">Prototype</a></li>
+            <li><a href="Usability.html">Usability Test</a></li>
+        </ul>
     </div>
-    <div class="main-content">
-      <h1>IxD Project</h1>
-      
+
+    <div class="table-container">
+        <table>
+           
+          <caption>Usability Test</caption>
+         
+            
+                
+                <td colspan = "4" class="table-header">Test</td> <!-- Spanning across all columns -->
+            
+          
+            <tr>
+                <td colspan="0"> </td>
+                <td colspan="3" class = "name"><strong>Partisipant's name:</strong></td> <!-- Spanning across all columns -->
+            </tr>
+           
+            <tr >
+                <th class="column0" style="text-align: center;" >Task</th>
+                <th class="column1" style="text-align: center;">Click Path</th>
+                <th class="column2" style="text-align: center;">Observations</th>
+                <th class="column3" style="text-align: center;">Quotes</th>
+                <th class="column4" style="text-align: center;">Task completion</th>
+          </tr>
+            <body>
+            <tr>
+                <td></td>
+                <td class="high-score"></td>
+                <td class="medium-score"></td>
+                <td class="low-score"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="high-score"></td>
+                <td class="high-score"></td>
+                <td class="medium-score"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="medium-score"></td>
+                <td class="medium-score"></td>
+                <td class="high-score"></td>
+            </tr>
+               <tr>
+                <td></td>
+                <td class="medium-score"></td>
+                <td class="medium-score"></td>
+                <td class="high-score"></td>
+            </tr>
+               <tr>
+                <td></td>
+                <td class="medium-score"></td>
+                <td class="medium-score"></td>
+                <td class="high-score"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </body>
+        </table>
     </div>
-  </div>
+</div>
+
 </body>
 </html>
